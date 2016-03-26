@@ -53,7 +53,7 @@ export PS1
 export PKG_CONFIG_PATH="/Library/Frameworks/Mono.framework/Versions/Current/lib/pkgconfig/"
 
 ## Android SDK
-ANDROID_HOME="/opt/android-sdks"
+ANDROID_HOME="/usr/local/opt/android-sdk"
 if [ -d $ANDROID_HOME ]; then
   export ANDROID_HOME
   alias adb=$ANDROID_HOME"/platform-tools/adb"
