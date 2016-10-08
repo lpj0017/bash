@@ -1,5 +1,3 @@
-## docker
-# . docker.sh
 ## color
 red_start="\[\e[31m\033[1m\]"
 cyan_start="\[\e[36m\033[1m\]"
@@ -23,7 +21,7 @@ alias godoc="echo ➟ godoc is running … && open http://localhost:6060/doc/ &&
 alias update="curl -o- https://raw.githubusercontent.com/xudafeng/bash/master/install.sh | bash && source ~/.bash_profile"
 alias todo="cd ~/prjs/todo && startserver -m"
 ## mvn
-MVNBIN="/opt/apache-maven-3.2.3/bin/mvn"
+MVNBIN="/opt/apache-maven-3.0.5/bin/mvn"
 if [ -f $MVNBIN ]; then
   alias mvn=$MVNBIN
 fi
