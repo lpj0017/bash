@@ -65,3 +65,5 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+
+export PATH="$HOME/.yarn/bin:$PATH"
