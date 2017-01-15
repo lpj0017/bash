@@ -67,3 +67,7 @@ export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 export PATH="$HOME/.yarn/bin:$PATH"
+
+export PATH="$HOME/prjs/c/depot_tools:$PATH"
+
+tmux
