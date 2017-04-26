@@ -17,7 +17,7 @@ alias gitpull="git pull"
 alias gitpush="git push"
 alias qmake="~/prjs/Qt/5.3/clang_64/bin/qmake"
 alias godoc="echo ➟ godoc is running … && open http://localhost:6060/doc/ && godoc -http=:6060"
-alias update="curl -o- https://raw.githubusercontent.com/xudafeng/bash/master/install.sh | bash && source ~/.bash_profile"
+alias update="curl -o- https://raw.githubusercontent.com/lpj0017/bash/master/install.sh | bash && source ~/.bash_profile"
 alias todo="cd ~/prjs/todo && startserver -m"
 alias python=python3
 ## mvn
